@@ -12,13 +12,17 @@ Download and import postman collection [here](picpay.postman_collection.json).
 
 ```docker-compsose up -d --build```
 
-#### Run composer
+#### Run composer install
 
 ```docker exec docker exec -it picpay-php-fpm composer install```
 
 #### Run schema update
 
 ```docker exec docker exec -it picpay-php-fpm php doctrine:schema:update --force```
+
+#### Executing funcional test(UserController)
+```docker exec -it picpay-php-fpm php bin/phpunit src/tests/Controller/```
+
 
 #### Application will be running at http://localhost:8000
 

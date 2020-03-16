@@ -38,9 +38,9 @@ final class UsersSearchFilter extends AbstractContextAwareFilter
                 'type' => 'string',
                 'required' => false,
                 'swagger' => [
-                    'description' => 'Filter using a regex. This will appear in the Swagger documentation!',
-                    'name' => 'Custom name to use in the Swagger documentation',
-                    'type' => 'Will appear below the name in the Swagger documentation',
+                    'description' => 'Filters user by name or account username',
+                    'name' => 'User filter',
+                    'type' => 'Query string',
                 ],
             ];
         }
