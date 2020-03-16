@@ -20,7 +20,7 @@ Download and import postman collection [here](picpay.postman_collection.json).
 
 ```docker exec docker exec -it picpay-php-fpm php doctrine:schema:update --force```
 
-#### Executing funcional test(UserController)
+#### Executing functional test(UserController)
 ```docker exec -it picpay-php-fpm php bin/phpunit src/tests/Controller/```
 
 
