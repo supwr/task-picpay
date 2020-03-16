@@ -2,11 +2,11 @@
 
 Find task description at this [link](https://picpay.com/jobs/desafio-backend-php).
 
-### Download postman collection
+### To test API endpoints, download collection and import to postman
 
 Download and import postman collection [here](picpay.postman_collection.json).
 
-### Installing the application
+## Installing the application
 
 #### Run docker-compose
 
