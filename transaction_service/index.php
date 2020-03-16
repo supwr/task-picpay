@@ -1,5 +1,5 @@
 <?php
-
+// i know this mock got shitty code. it's just a mock, don't judge
 $data = json_decode(file_get_contents('php://input'));
 
 if($data->value >= 100) {
